@@ -5,5 +5,5 @@ if (not os.path.exists("Data")):
 
 for i in range(0, 100):
     # os.mkdir(f"data/tutorial {i + 1}")
-    os.rmdir(f"data/tutorial {i + 1}")
+    os.mkdir(f"data/tutorial {i + 1}")
     # os.mkdir("data1")
